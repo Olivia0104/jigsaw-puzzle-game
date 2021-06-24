@@ -63,7 +63,6 @@ def run_game():
             #(left,top,width,height)
             screen.blit(game_setting.image,rect,PuzzleArea)
             #图像，绘制的位置，绘制的图片
-            #画分割线
         pygame.display.update()
 run_game()
 
